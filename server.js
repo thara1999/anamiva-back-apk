@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const app = require("./app");
 const { initSocket } = require("./sockets/socket");
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 /* =========================
    DATABASE CONNECTION
